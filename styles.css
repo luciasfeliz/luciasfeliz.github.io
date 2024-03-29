@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    font-family: "Kode Mono", monospace;
+    font-size: small;
+    background-image: url("https://i.pinimg.com/originals/66/1b/53/661b5333e2d072a7b03bc06cf10d9352.gif");
+    background-size: cover;
+    background-color: rgba(13, 79, 26, 0.8);
+    background-blend-mode: overlay;
+    color: rgba(39, 185, 68, 1);
+}
+
+h1 {
+    border-style: dotted dashed solid double;
+    text-align: center;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h6 {
+    position: relative;
+    animation-name: sliding;
+    transition-timing-function: linear;
+    animation-direction: normal;
+}
