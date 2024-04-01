@@ -3,7 +3,8 @@
 body {
     font-family: "Kode Mono", monospace;
     font-size: small;
-    background-image: url("https://i.pinimg.com/originals/66/1b/53/661b5333e2d072a7b03bc06cf10d9352.gif");
+    /* background-image: url("https://i.pinimg.com/originals/66/1b/53/661b5333e2d072a7b03bc06cf10d9352.gif"); */
+    background-image: url("obj/green_sparkles.gif");
     background-size: cover;
     background-color: rgba(13, 79, 26, 0.8);
     background-blend-mode: overlay;
@@ -17,6 +18,7 @@ h1 {
     font-family: "windowsregular", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: black;
 }
 
 h6 {
@@ -109,9 +111,69 @@ h6 {
     padding: 20px;
     padding-right: 20px;
     margin-top: 10px;
-    background-image: url("obj/user_box.gif");
+    background-image: url("https://i.pinimg.com/originals/2e/c8/1e/2ec81e1517a75592dd347207fa748d78.gif");
+    background-size: 100% auto;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .avatar {
+        width: 150px;
+    }
+
+    .avatar-container {
+        margin-right: 0px;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .userinfo {
+        margin-left: -10px;
+    }
+
+    .userinfobox {
+        max-width: fit-content;
+        flex-shrink: 0;
+        font-family: "Kode Mono", monospace;
+        font-size: x-small;
+        height: 400px;
+        border: 10px solid green;
+        padding: 20px;
+        margin-right: 20px;
+        color: rgba(39, 185, 68, 1);
+        background-image: url("obj/user_box.gif");
+        overflow: auto; /* Clear floats */
+    }
+
+    .userinfobox img {
+        max-width: 70%;
+    }
+
+    .second-box {
+        display: none;
+    }
+
+    .blinkiesbox {
+        width: fit-content;
+        height: auto;
+        border: 15px solid green;
+        padding: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+        background-image: url("https://i.pinimg.com/originals/2e/c8/1e/2ec81e1517a75592dd347207fa748d78.gif");
+        background-size: 100% auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .blinkiesbox img {
+        width: calc(50% - 10px);
+        margin-bottom: 5px;
+    }
+}
 
 /*      Fonts        */
 
