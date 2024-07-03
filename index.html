@@ -27,7 +27,28 @@
     </script>
 </head>
 <body>
-    <h1>luciasfeliz.github.io</h1>
+    <h1>
+        <style>
+            .rotategrad {
+            background-size: 100vw 100vw;
+            margin: 0;
+            position: relative;
+            text-align: -webkit-center;
+            font-size: 2em;
+            background: repeating-linear-gradient(-45deg, #15b600 0%, rgb(173, 230, 173) 25%, #15b600 50%);
+            -webkit-animation: 'slide' 30s infinite linear forwards;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            }
+            
+            @keyframes slide {
+            0% { background-position-x: 0%; }
+            100% { background-position-x: 200vw; }
+            }
+            </style>
+            
+            <div class="rotategrad">luciasfeliz.github.io</div>
+    </h1>
     <div class="firstrow">
         <div class="userinfobox">
             <h2>@luciasfeliz</h2>
