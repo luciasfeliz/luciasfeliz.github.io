@@ -52,32 +52,16 @@
         <div class="xtractn">
             <div class="morectn">
                 <button id="extended" class="buttons c1">Extend.</button> <button id="reviive" class="buttons c2">Reviive</button> <button id="dni" class="buttons c3">DNI</button>
-                <br><c3>Interests</c3> <c1>Kins</c1> <c4>Blinkies</c4>
-                <br><c4>Songs</c4> <c2>FAQ</c2>
-                <br><c4>Pixel Hoard</c4> <c1>Lovemail</c1>
+                <br><button id="interests" class="buttons c3">Interests</button> <button id="kins" class="buttons c1">Kins</button> </c1> <c4>Blinkies</c4>
+                <br><button id="songs" class="buttons c4">Songs</button> <c2>FAQ</c2>
+                <br><button id="alters" class="buttons c4">Alters</button> <button id="credits" class="buttons c1">Credits</button></c1>
             </div>
             <div class="pfpctn">
                 <div id="shake">
                     <img src="obj/lain_pfp.png">
                 </div>
             </div>
-            <script>
-                document.getElementById("dni").addEventListener("click", function() {
-                    document.getElementById("DNI").style.display = "block";
-                    document.getElementById("Reviive").style.display = "none";
-                    document.getElementById("Extended").style.display = "none";
-                });
-                document.getElementById("reviive").addEventListener("click", function() {
-                    document.getElementById("Reviive").style.display = "block";
-                    document.getElementById("DNI").style.display = "none";
-                    document.getElementById("Extended").style.display = "none";
-                });
-                document.getElementById("extended").addEventListener("click", function() {
-                    document.getElementById("Extended").style.display = "block";
-                    document.getElementById("DNI").style.display = "none";
-                    document.getElementById("Reviive").style.display = "none";
-                });
-            </script>
+            <script src="buttons.js"></script>
         </div>
         <div id="DNI" class="exctn">
             do not interact if:
@@ -90,6 +74,30 @@
         </div>
         <div id="Extended" class="exctn">
             hello! my name is lucía, though i also have a few other names, such as lulu or ak1na. i am 17 years old, and my hobbies are drawing, coding, learning foreign languages, listening to music, and playing video games! i also love caring for people, and helping out as much as i can. i enjoy coding in python, java, javascript, html, and css, and i fluently speak english, but i can also speak level b2 spanish and level a2 german!
+        </div>
+        <div id="Interests" class="exctn">
+            video games: minecraft <br>
+            music: limp bizkit, nine inch nails, linkin park <br>
+            shows: serial experiments lain <br>
+            extra: learning spanish, german, and japanese
+        </div>
+        <div id="Kins" class="exctn">
+            ame (needy streamer overload), kangel (needy streamer overload)<br>
+            yuri (doki doki literature club), sayori (doki doki literature club)<br>
+            lain (serial experiments lain)
+        </div>
+        <div id="Alters" class="exctn">
+            click on a name to go to an alter's page!<br>
+            <a href="alters/lucia.html"><button class="buttons">lucía</button></a><br>
+            <a href="alters/erik.html"><button class="buttons">erik</button></a><br>
+        </div>
+        <div id="Songs" class="exctn">
+            unfinished!
+        </div>
+        <div id="Credits" class="exctn">
+            here are some links and items that i used for my website!
+            <br><a href="https://loveberry.neocities.org/" target="_blank">coloured name on top</a>
+            <br><a href="https://scripted.neocities.org/2nd" target="_blank">shaking pfp</a>
         </div>
         <div class="imgctn">
             <img src="obj/divider_bottom.png">
