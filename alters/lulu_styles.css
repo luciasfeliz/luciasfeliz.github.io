@@ -1,28 +1,14 @@
-/** Lucía **/
-body {
-    background-color: rgb(14, 17, 14);
+.text-success {
+    font-weight: bold;
 }
-
-.repeating-image {
-    background-image: url("../alter_obj/lucia_divider.gif"); /* Replace with your image path */
-    background-repeat: repeat-x; /* Repeat only horizontally */
-    width: auto; /* Set the width of your container as needed */
-    height: 28px; /* Set the height of your container (should match image height) */
+.text-warning {
+    font-style: italic;
 }
-
-.buttons {
-    border: none;
-    font-family: 'subwaycircle';
-    font-size: 16px;
-    background: none;
-    outline: none;
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    cursor: pointer;
-    color:rgb(67, 226, 4)
+.text-danger {
+    text-decoration: line-through;
+    font-size: 12px;
 }
-
-@font-face {
-    font-family: 'subwaycircle';
-    src: url(https://files.catbox.moe/94qphb.otf);
-    }
+.flags img {
+    height: 18px;
+    width: auto;
+}
