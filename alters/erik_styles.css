@@ -1,119 +1,15 @@
-body {
-    font-family: 'subwaycircle';
-    background-color: rgb(51, 42, 13);
+.text-success {
+  font-weight: bold;
 }
-  .main {
-    display: flex;
-    flex-direction: column; /* Align items in a column */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    min-height: 100vh; /* Ensure body fills viewport height */
-  }
-
-  .dividerctn {
-    background-image: url("../alter_obj/erik_divider.gif"); /* Replace with your image path */
-    background-repeat: repeat-x; /* Repeat only horizontally */
-    width: auto; /* Set the width of your container as needed */
-    height: 28px; /* Set the height of your container (should match image height) */
-  }
-
-  .imgctn {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-
-  .imgctn img {
-    width: 700px;
-    height: auto;
-    margin-top: 10px;
-  }
-
-  .infoctn {
-    color: rgb(255, 201, 25);
-    font-size: large;
-  }
-
-  .infoctn img {
-    max-width: 24px;
-    max-height: 24px;
-  }
-
-
-.buttons {
-    border: none;
-    font-family: 'subwaycircle';
-    font-size: 16px;
-    background: none;
-    outline: none;
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    cursor: pointer;
-    color:rgb(204, 158, 9)
+.text-warning {
+  font-style: italic;
+}
+.text-danger {
+  text-decoration: line-through;
+  font-size: 12px;
 }
 
-.bubbler {
-    font-size:2em;
-    font-family: 'subwaycircle';
+.flags img {
+  height: 18px;
+  width: auto;
 }
-
-.bubbler mark { 
-    animation: bubble 2s infinite;
-    animation-timing-function: ease-in-out;
-    background: none;
-    color:rgb(255, 255, 255);
-}
-     
-.bubbler mark:nth-child(1) { animation-delay:0s; display:inline-block;}
-.bubbler mark:nth-child(2) { animation-delay:0.8s; display:inline-block;}
-.bubbler mark:nth-child(3) { animation-delay:1.6s; display:inline-block; }
-.bubbler mark:nth-child(4) { animation-delay:2.4s; display:inline-block;}
-.bubbler mark:nth-child(5) { animation-delay:3.2s; display:inline-block;}
-.bubbler mark:nth-child(6) { animation-delay:4s; display:inline-block;}
-.bubbler mark:nth-child(7) { animation-delay:4.8s; display:inline-block;}
-.bubbler mark:nth-child(8) { animation-delay:5.6s; display:inline-block;}
-.bubbler mark:nth-child(9) { animation-delay:6.4s; display:inline-block;}
-.bubbler mark:nth-child(10) { animation-delay:7.2s; display:inline-block;}
-.bubbler mark:nth-child(11) { animation-delay:8s; display:inline-block;}
-.bubbler mark:nth-child(12) { animation-delay:8.8s; display:inline-block;}
-.bubbler mark:nth-child(13) { animation-delay:9.6s; display:inline-block;}
-.bubbler mark:nth-child(14) { animation-delay:10.4s; display:inline-block;}
-.bubbler mark:nth-child(15) { animation-delay:11.2s; display:inline-block;}
-     
-@keyframes bubble {
-from {
-color:rgb(255, 255, 255);
-}
-    
-50% {
-color:rgb(255, 201, 25);
-}
-    
-to {
-color:rgb(255, 255, 255);
-}
-}
-    
-@-webkit-keyframes prin {
-from {
-color:rgb(255, 255, 255);
-}
-    
-50% {
-color:rgb(255, 201, 25);
-}
-    
-to {
-color:rgb(255, 255, 255);
-}
-}
-
-@font-face {
-    font-family: 'subwaycircle';
-    src: url(https://files.catbox.moe/94qphb.otf);
-    }
-
-@font-face {
-    font-family: 'hangingletters';
-    src: url(https://files.catbox.moe/6vouww.ttf);
-    }
